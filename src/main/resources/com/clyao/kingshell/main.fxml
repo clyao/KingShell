@@ -66,7 +66,7 @@
                   <Label layoutX="10.0" layoutY="79.0" text="密码：" AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="79.0" />
                   <TextField fx:id="ip" layoutX="60.0" layoutY="11.0" prefHeight="23.0" prefWidth="220.0" text="120.77.55.42" AnchorPane.leftAnchor="60.0" AnchorPane.rightAnchor="320.0" AnchorPane.topAnchor="11.0" />
                   <TextField fx:id="port" prefWidth="220.0" text="2222" AnchorPane.leftAnchor="60.0" AnchorPane.rightAnchor="320.0" AnchorPane.topAnchor="43.0" />
-                  <TextField fx:id="userName" prefWidth="220.0" text="neuroo" AnchorPane.leftAnchor="60.0" AnchorPane.rightAnchor="320.0" AnchorPane.topAnchor="75.0" />
+                  <TextField fx:id="userName" prefWidth="220.0" AnchorPane.leftAnchor="60.0" AnchorPane.rightAnchor="320.0" AnchorPane.topAnchor="75.0" />
                   <PasswordField fx:id="passWord" prefWidth="220.0" AnchorPane.leftAnchor="60.0" AnchorPane.rightAnchor="320.0" AnchorPane.topAnchor="110.0" />
                   <Button fx:id="connect" mnemonicParsing="false" onAction="#connectServer" prefHeight="120.0" prefWidth="130.0" style="-fx-background-color: #18b566;" text="连接" textFill="WHITE" AnchorPane.rightAnchor="160.0" AnchorPane.topAnchor="10.0">
                      <font>
